@@ -274,6 +274,7 @@ h2 {
     font-weight: 33px;
     color: rgb(144, 77, 0);
     font-family: 'Exo 2', sans-serif;
+    text-shadow: none;
 }
 
 #work { 
@@ -285,7 +286,7 @@ h2 {
     margin-top: 15px;
 }
 
-i{
+i {
     text-shadow: 5px 5px 5px rgba(189, 9, 9, 0.842); 
     animation: flicker 5s infinite alternate; 
     margin-right: 30px;
