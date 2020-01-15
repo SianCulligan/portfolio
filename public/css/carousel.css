@@ -1,0 +1,33 @@
+.events {
+    width:250px;
+    height: 225px;
+    margin-top: 77px;
+}
+
+.slider {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+.slide {
+    width: 300px;
+    flex-shrink: 0;
+    scroll-behavior: smooth;
+    height: 100%;
+  }
+
+.slides > div:target {
+    transform: scale(0.8);
+  }
+
+.slideContainer {
+    width: 960px;
+    height: 450px;
+}
