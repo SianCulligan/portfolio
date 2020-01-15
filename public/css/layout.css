@@ -50,7 +50,7 @@ body {
 }
 
 h1 {
-    font-size: 75px;
+    font-size: 100px;
     font-weight: 200;
     font-style: italic;
     color: #fff;
@@ -224,7 +224,7 @@ header {
     
 }
 
-#sian, #james, #bree {
+#ssm, #slpa, #ecc {
     width: 320px;
     height: 300px;
     position: absolute;
@@ -264,7 +264,7 @@ main {
     font-family: 'Exo 2', sans-serif;
 }
 
-#sian:hover, #bree:hover, #james:hover {
+#ssm:hover, #ecc:hover, #slpa:hover {
     transition: all 0.5s ease-in-out;
     opacity: 0;
 }
