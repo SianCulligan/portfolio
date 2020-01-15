@@ -1,77 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me || Sian Culligan</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/modules.css">
-    <script src="https://kit.fontawesome.com/d0975df996.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>About Me || Sian Culligan</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../css/layout.css">
+        <link rel="stylesheet" href="../css/modules.css">
+        <script src="https://kit.fontawesome.com/d0975df996.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+            <h1>Oh, hello.</h1>
+                <ul class="navigation">
+                    <li> <a href="#introBox">About.</a></li>
+                    <li><a href="#jobDesc">Work.</a></li>
+                    <li><a href="#icon">Contact.</a> </li>
+                </ul>
+            </nav>
+        </header>
 
-    <header>
-        <nav>
-        <h1>Oh, hello.</h1>
-            <ul class="navigation">
-                <li> <a href="#introBox">About.</a></li>
-                <li><a href="#jobDesc">Work.</a></li>
-                <li><a href="#icon">Contact.</a> </li>
-            </ul>
-        </nav>
-    </header>
+        <main>
+            <section class="myName">
+                <span class="ch1">I</span>
+                <span class="ch2">'</span>
+                <span class="ch3">m</span>
+                <span class="ch4"> </span>
+                <span class="ch5">S</span>
+                <span class="ch6">i</span>
+                <span class="ch7">a</span>
+                <span class="ch8">n</span>
+                <span class="ch9">.</span>
+            </section>
 
-<main>
+            <img class="lenaSketch" src="../img/SianCulligan.jpg">
+            
+            <p class="intro" id="introBox">I’ve built my career in a variety of roles, all of which have required me to be an exceptional communicator, a creative thinker, and a leader. I’m never satisfied with “good enough” and always looking for ways to go above and beyond for customers and coworkers alike.</p>
 
+            <div class="forSpace">
+                <p id="work">Work Experience.</p>
+            </div>
+            <div class="img-container">
+                <div class="jobOne">
+                    <img class="image" id="sian" src="img/SiansASeniorSM.png" alt="Zumiez | Senior Store Manager" title="Zumiez | Senior Store Manager" />
 
-    <section class="myName">
-        <span class="ch1">I</span>
-        <span class="ch2">'</span>
-        <span class="ch3">m</span>
-        <span class="ch4"> </span>
-        <span class="ch5">S</span>
-        <span class="ch6">i</span>
-        <span class="ch7">a</span>
-        <span class="ch8">n</span>
-        <span class="ch9">.</span>
-    </section>
+                    <h2 class="jobBlocks">Zumiez | Senior Store Manager.</h2>
+                    <p class="jobBlocks">Train people, set product, identify trends, make profit. </p>
+                </div>
 
-  <img class="lenaSketch" src="../img/SianCulligan.jpg">
-  <p class="intro" id="introBox">I’ve built my career in a variety of roles, all of which have required me to be an exceptional communicator, a creative thinker, and a leader. I’m never satisfied with “good enough” and always looking for ways to go above and beyond for customers and coworkers alike.</p>
+            <div class="jobTwo">
+            <img class="image" id="bree" src="../img/SiansAnEventPerson.png" alt="Zumiez | Event & Communication Coordinator" title="Zumiez | Event & Communication Coordinator" />
 
+            <div class="jobBlocks"> 
+            <h2 >Zumiez | Event & Communication Coordinator.</h2>
+            <p class="jobBlocks">Run events, communicate & organize projects for 700+ retail locations.</p>
+            </div>
+            </div>
 
-<div class="jobContainer">
-    <img class="jobTitles" src="../img/SiansASeniorSM.png" alt ="Zumiez | Senior Store Manager">
-    <img class="jobTitles" src="../img/SiansAnEventPerson.png" alt ="Zumiez | Event & Communication Coordinator">
-    <img class="jobTitles" src="../img/SiansASeniorAnalyst.png" alt ="Zumiez | Senior Analyst">
-</div>
+            <div class="jobThree">
+            <img class="image" id="james" src="../img/SiansASeniorAnalyst.png" alt="Zumiez | Senior Analyst" title="Zumiez | Senior Analyst" />
 
-<div id="jobDesc">
-  <ul class="jobOne">
-      <li class="title">Zumiez | Senior Store Manager.</li>
-      <li class="desc">Train people, set product, identify trends, make profit.</li>
-      <li class="title">Zumiez | Event & Communication Coordinator.</li>
-      <li class="desc">Run events, communicate & organize projects for 700+ retail locations.><li>
-      <li class="title">Zumiez | Senior Analyst.</li>
-      <li class="desc">Build out tools ot identify trends and loss to guide business decisions.<li>
-  </ul>         
-</div>
-
-<div style="font-size: 4rem;">
-<i id="icon" class="fab fa-github fa-lg"></i>
-<i class="fab fa-linkedin-in fa-lg"></i>
-<i class="fab fa-instagram fa-lg"></i>
-<i class="fab fa-facebook fa-lg"></i>
-<i class="far fa-envelope fa-lg"></i>
-</div>
+            <h2 class="jobBlocks">Zumiez | Senior Analyst.</h2>
+            <p class="jobBlocks">Build out tools ot identify trends and loss to guide business decisions.</p>
+            </div>
+            </div> 
 
 
-</main>
-<footer>
-    <script src="app.js" type="text/javascript" ></script>
-</footer>
-</body>
+        <div class="forSpace"></div>
+        <div class="icons" style="font-size: 4rem;">
+        <i id="icon" class="fab fa-github fa-lg"></i>
+        <i class="fab fa-linkedin-in fa-lg"></i>
+        <i class="fab fa-instagram fa-lg"></i>
+        <i class="fab fa-facebook fa-lg"></i>
+        <i class="far fa-envelope fa-lg"></i>
+        </div>
+
+
+        </main>
+        <footer>
+        <script src="app.js" type="text/javascript" ></script>
+        </footer>
+    </body>
 </html>
