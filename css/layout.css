@@ -103,7 +103,7 @@ box-shadow: none;
 .lenaSketch {
 width: 200px;
 border-radius: 50%;
-animation: flicker 2s infinite alternate;
+/* animation: flicker 2s infinite alternate; */
 height: 200px;
 float: left;
 margin: 50px;
