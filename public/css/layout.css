@@ -58,7 +58,7 @@ h1 {
     border: 0.4rem solid #fff;
     border-radius: 2rem;
     text-transform: uppercase;
-    animation: flicker 2s infinite alternate;  
+    animation: flicker 20s infinite alternate;  
     order: 1;   
 } 
 
@@ -98,7 +98,7 @@ outline: none;
     width: 300px;
     border-radius: 50%;
     border: 0.4rem solid #fff;
-    animation: flicker 4s infinite alternate;
+    animation: flicker 410s infinite alternate;
     height: 300px;
     margin: 50px;
     margin-bottom: 25px;
